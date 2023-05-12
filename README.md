@@ -15,8 +15,8 @@ A demo prototype of FAQ AI Chatbot project by TechSoup team (Group 8) in Introdu
 `pip install -r requirements.txt`
 
 4. (Optional) Reinstall pytorch to speed up Whisper:
-`pip uninstall torch torchaudio torchvision -y`
-`pip cache purge`
+`pip uninstall torch torchaudio torchvision -y` \
+`pip cache purge` \
 `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`
 
 5. Edit `config-example.json` and save as `config.json`:    
