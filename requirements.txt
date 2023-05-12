@@ -3,5 +3,6 @@ requests
 revChatGPT
 EdgeGPT
 openai-whisper
+numba==0.56.4
 elevenlabs
 pyttsx3
