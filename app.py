@@ -137,10 +137,10 @@ def prompt():
     os.makedirs(os.path.dirname(reply_path), exist_ok=True)
     text_to_speech.tts(reply, reply_path)
 
-    return jsonify({'text': reply, 'audio': f"/listen/{reply_file}"})
+    return jsonify({'text': reply, 'audio': f"/tts/{reply_file}"})
 
 
-@app.route('/listen/<filename>')
+@app.route('/tts/<filename>')
 def listen(filename):
     """
     The function "listen" returns an audio file with the specified filename in the "outputs" directory
