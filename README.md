@@ -20,6 +20,6 @@ A demo prototype of FAQ AI Chatbot project by TechSoup team (Group 8) in Introdu
 `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`
 
 5. Edit `config-example.json` and save as `config.json`:    
-`chatgpt_token: ` (Required, see https://chat.openai.com/api/auth/session)
-`chatgpt_conversation_id: ` (Optional, leave blank will create a new conversation with start prompt instead of continue the existing one)
+`chatgpt_token: ` (Required, see https://chat.openai.com/api/auth/session)\
+`chatgpt_conversation_id: ` (Optional, leave blank will create a new conversation with start prompt instead of continue the existing one)\
 `el_key: ElevenLabs key` (Optional, leave blank will use pyttsx3 instead)
