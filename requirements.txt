@@ -1,0 +1,7 @@
+Flask
+requests
+revChatGPT
+EdgeGPT
+openai-whisper
+elevenlabs
+pyttsx3
