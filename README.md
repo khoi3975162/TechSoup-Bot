@@ -2,6 +2,8 @@
 A demo prototype of FAQ AI Chatbot project by TechSoup team (Group 8) in Introduction of Information Technology course at RMIT University Vietnam 2023 Semester A using ChatGPT as language model, Whisper by OpenAI as speech-to-text model and ElevenLabs as text-to-speech model. This is just a demonstration on how we will use those technological approach if we have a chance to complete the project in the assignment with personal and customization trained model.
 
 ### Windows Installation
+#### Python 3.8 - 3.10
+
 1. Clone repository: \
 `git clone https://github.com/khoi3975162/TechSoup-Bot.git` \
 `cd TechSoup-Bot`
