@@ -1,7 +1,7 @@
 import json
 import os
 
-with open(os.path.dirname('./config.json')) as f:
+with open(os.getcwd() + '\\config.json') as f:
     config = json.load(f)
 
 model = None
