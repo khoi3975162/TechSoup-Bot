@@ -1,7 +1,7 @@
 import re
 from EdgeGPT import Chatbot, ConversationStyle
 
-bot = Chatbot(cookie_path='./cookies.json')
+bot = Chatbot(cookie_path=os.path.dirname('./cookies.json'))
 
 
 async def run(prompt: str) -> str:
